@@ -21,7 +21,7 @@ RULES
    - Memory Management tips
 5- Your design should be as abstract as possible. Someday I may want to change XML
 with JSON configuration file!
-6- Naming convertions MATTERS A LOT! Follow them please :-) !
+6- Naming conventions MATTERS A LOT! Follow them please :-) !
 7- You should use Maven to compile, test and deploy your final release.
 8- TEST DRIVEN DEVELOPMENT! Don't forget to write tests! Classes without
    tests are not that trusted!
