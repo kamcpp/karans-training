@@ -1,6 +1,7 @@
 package contextManager.imp;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Hashtable;
@@ -30,6 +31,7 @@ public class DefaultContextManager implements ContextManager {
 		beans = new Hashtable<String, BeanDescription>();
 		configReader = new InMemoryContextConfigReader();
 		beanFactory = new DefaultBeanFactory();
+		objectMap = new HashMap<String, Object>();
 	}
 
 	@Override

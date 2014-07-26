@@ -12,7 +12,7 @@ public class InMemoryContextConfigReader implements ContextConfigurationReader {
 	public List<BeanDescription> read(String path) {
 		List<BeanDescription> lst=new ArrayList<BeanDescription>();
 		BeanDescription myBean=new BeanDescription();
-		myBean.setClassName("java.lang.Integer");
+		myBean.setClassName("java.lang.String");
 		myBean.setId("myNumber");
 		myBean.setType("singelton");
 		

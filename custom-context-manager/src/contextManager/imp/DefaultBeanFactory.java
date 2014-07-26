@@ -11,7 +11,7 @@ public class DefaultBeanFactory implements BeanFactory {
 
 		try {
 			Class c = Class.forName(beanDesc.getClassName());
-
+		
 			return c.newInstance();
 
 		} catch (ClassNotFoundException | InstantiationException
