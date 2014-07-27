@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tee>
+  <executer>
+    <schedule type="daily" time="20:34:15" days="Sunday,Tuesday,Friday" />
+  </executer>
+  <tasks>
+    <base-package>com.mycompany.app</base-package>
+    <task id="task1" class="FirstTaskClass" method="run" dependsOn="task3" />
+    <task id="task2" class="SecondTaskClass" before="beforeExecute" method="execute" dependsOn="task1" />
+    <task id="task3" class="ThirdTaskClass" method="perform" after="afterPerform" />
+    <task id="task4" package="oldtasks.native" class="FourthTaskClass" method="run" />
+    <task id="task5" class="FifthTaskClass" before="beforeRun" after="afterRun" method="run" dependsOn="task4,task1" />
+    <task id="task6" class="SixthTaskClass" before="beforeStart" after="afterStart" method="start" dependsOn="task4" />
+  </tasks>
+</tee>
