@@ -1,0 +1,61 @@
+[KARANS THIRD ASSIGNMENT]
+
+INSTRUCTOR: KAMRAN AMINI  <KAM.CPP@GMAIL.COM>
+29 JULY 2014
+
+
+RULES
+-----
+1- Do it yourself! Help others! Ask help! But write your own source code!
+2- Push your code on https://github.com/kamcpp/karans-training.git. A folder
+   is made for assignment 2.
+3- Following concepts are included in this assignment, you should find a 
+   way to use them:
+   - IoC
+   - Dependency Injection and Strategy design pattern
+   - Exception Handling and custom exceptions
+   - Generic classes
+   - Memory Management tips
+   - Serialization
+   - Java Streams
+   - Socket Programming
+   - Thread Pools
+   - Multithreading
+   - TDD
+4- Don't forget abstraction.
+5- Naming conventions MATTERS A LOT! Follow them please :-) !
+6- You should use Maven to compile, test and deploy your final release.
+7- TEST DRIVEN DEVELOPMENT! Don't forget to write tests! Classes without
+   tests are not that trusted!
+8- VERY IMPORTANT: All implementation classes MUST have their own respective test files.
+
+
+ASSIGNMENT
+----------
+
+This is about a remote calculator. Clients send their calculation requests. Calculator 
+server receives the requests and serves them. Calculator is able to perform some
+arithmetic operations. Each client can obtain the list of operations which a server
+can perform prior to sending the request.
+
+A simple implementation may serve 4 main arithmetic operations: Add, Multiply, Subtract
+and Division. But a more complex implementation can have more operations than that.
+Complex and heavy operations can take a long time to get done. In this case, a client 
+can't wait for the result to get computed since the trasnport channel to the server 
+will get expired.
+
+Design your server and clients to support all kinds of operations. Both clients and 
+server should be implemented. TDD is a MUST.
+
+
+SECURITY ISSUES
+---------------
+
+Since you are about to design an Application Protocol for this Calculation Service, you 
+should be concerned about its security. Each application protocol has some holes that
+an attacker can use them. There are a wide range of attacks and issues that target the 
+weaknesses in different aspects of an application protocol e.g DOS or DDOS attacks,
+Exploitation. Think about your designed protocol and try to break it.
+
+
+OVER AND OUT.
