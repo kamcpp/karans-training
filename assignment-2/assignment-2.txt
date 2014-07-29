@@ -1,0 +1,84 @@
+[KARANS SECOND ASSIGNMENT]
+
+INSTRUCTOR: KAMRAN AMINI  <KAM.CPP@GMAIL.COM>
+29 JULY 2014
+
+
+RULES
+-----
+1- Do it yourself! Help others! Ask help! But write your own source code!
+2- Push your code on https://github.com/kamcpp/karans-training.git. A folder
+   is made for assignment 2.
+3- Following concepts are included in this assignment, you should find a 
+   way to use them:
+   - IoC
+   - Dependency Injection and Strategy design pattern
+   - Exception Handling and custom exceptions
+   - Generic classes
+   - Memory Management tips
+   - Encryption Algorithms
+   - Serialization
+   - Java Streams
+   - TDD
+4- Don't forget abstraction.
+5- Naming conventions MATTERS A LOT! Follow them please :-) !
+6- You should use Maven to compile, test and deploy your final release.
+7- TEST DRIVEN DEVELOPMENT! Don't forget to write tests! Classes without
+   tests are not that trusted!
+8- VERY IMPORTANT: All implementation classes MUST have their own respective test files.
+
+
+ASSIGNMENT
+----------
+
+This assignment has 2 steps:
+
+[STEP 1]
+
+First, we want to add Encrypted Streams to Java standard streams. Whatever 
+you write to an Encrypted Stream gets encrypted and whatever you read from 
+an Encrypted Stream gets decrypted. In Java, streams are categorized in 3
+different layers, we want to add another layer on top of them to wrap 
+buffered streams.
+
+   |--------------------------|
+   |    Encrypted Streams     |
+   |--------------------------|
+   |--------------------------|
+   |    Buffered Streams      |
+   |--------------------------|
+   |--------------------------|
+   |    Character Streams     |
+   |--------------------------|
+   |--------------------------|
+   |       Byte Streams       |
+   |--------------------------|
+<----------- MEDIA -------------->
+
+Encrypted Streams framework has two main classes; EncryptedOutputStream and 
+EncryptedInputStream. You should design its object model. It should support
+both symmetric and asymmetric algorithms. As well, you need to provide correct
+implementations for following symmetric encryption algorithms:
+
+- TEA
+- XOR Encryption Algorithm
+- Caesar
+
+[STEP 2]
+
+Write a custom serializer which accepts a reference to an object and
+serializes the object using Encrypted Stream. Serialization my be binary
+or textual. Following serialization should be implemented:
+
+- JSON (Don't use any thrid party framework)
+- BSON
+- Netstrings
+
+For understanding how to write a binary serializer, have a look at:
+http://www.javaworld.com/article/2072752/the-java-serialization-algorithm-revealed.html
+
+When you finished your serializers, serialize a simple obejct model using
+BSON serializer to a file, over an encrypted stream. Result file can be 
+interesting.
+
+OVER AND OUT.
