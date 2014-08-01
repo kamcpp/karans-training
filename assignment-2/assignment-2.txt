@@ -64,6 +64,11 @@ implementations for following symmetric encryption algorithms:
 - XOR Encryption Algorithm
 - Caesar
 
+For a better understanding about Java Security model, please have a look at:
+http://www.oracle.com/technetwork/java/js-white-paper-149932.pdf
+(Since oracle.com is restircted for us, a copy of this pdf is placed inside
+assignment directory.)
+
 [STEP 2]
 
 Write a custom serializer which accepts a reference to an object and
