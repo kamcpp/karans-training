@@ -1,0 +1,21 @@
+To: Mr. Khaleghi
+
+- Don't commit build related directories like 'target'.
+
+- There are many specific exceptions thrown by 'main' method. I mean
+  you have let many of inner exceptions get to the surface of your
+  app. Should all of them reach here? I think they can be converted
+  to a set of more meaningful exceptions which they are defined in 
+  the domain that you are writing code about.
+  Since most of them are Java exceptions, there is no issue. But
+  if you throw an exception which is defined in one of your 
+  dependencies or implementations, you'll be in problem.
+
+- Usually, there is no 'interfaces' package. All interfaces are assumed
+  core concepts and they are placed in the root package.
+
+- Class names should start with capital letter.
+
+- Extra questions about your implementation will be asked in class.
+
+Kamran Amini.
