@@ -1,0 +1,22 @@
+[U] Task Engine
+Packet capturing
+Producing interleavings
+Making an immutable list
+Source code generation
+File transfer over sockets
+Chat application
+Dropbox
+Active Object Design Pattern
+Simple Web Server
+Simple Source Version Control
+Peer to Peer app. protocol
+Pooling
+Simple DBMS + Query Language
+[U] Encrypted Stream
+Serialization
+Diff tool
+Tree, Graph and data structures
+RPC
+[U] Remote Calculator
+Virus Scanner
+Search Engine

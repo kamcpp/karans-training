@@ -1,0 +1,26 @@
+Checklist for Assignment 1
+--------------------------
+
+NC: Not Checked
+OK: Ok
+SO: So So!
+BD: Bad
+
+[NC] Composition
+[NC] Polymorphism
+[NC] Test Driven Development
+[NC] Dependency Injection and IoC
+[NC] Secure Coding
+[NC] Bad Commits
+[NC] Memory Management
+[NC] Naming Conventions
+[NC] Implementing interfaces
+[NC] Tests for Implementations
+[NC] Proper Object Model
+[NC] Proper Exception Handling
+[NC] Custom Exceptions
+[NC] XML Parsing
+[NC] Proper Annotations
+[NC] Reflection
+[NC] Proper Generic Classes
+
