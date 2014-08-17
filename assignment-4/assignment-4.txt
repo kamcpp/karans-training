@@ -1,0 +1,140 @@
+[KARANS FIRST ASSIGNMENT]
+
+INSTRUCTOR: KAMRAN AMINI  <KAM.CPP@GMAIL.COM>
+15 JULY 2014
+
+
+RULES
+-----
+1- Do it yourself! Help others! Ask help! But write your own source code!
+2- You can push your source code ONLY until Saturday 19th July 2014 12:00 PM.
+3- Push your code on https://github.com/kamcpp/karans-training.git. A folder
+   is made for assignment 1.
+4- You should use following concepts:
+   - IoC
+   - Dependency Injection and Strategy design pattern
+   - Exception Handling and custom exceptions
+   - XML parsing
+   - Annotations
+   - Reflection
+   - Generic classes
+   - Memory Management tips
+5- Your design should be as abstract as possible. Someday I may want to change XML
+with JSON configuration file!
+6- Naming conventions MATTERS A LOT! Follow them please :-) !
+7- You should use Maven to compile, test and deploy your final release.
+8- TEST DRIVEN DEVELOPMENT! Don't forget to write tests! Classes without
+   tests are not that trusted!
+
+
+ASSIGNMENT
+----------
+Suppose we want to write a Task Executer Engine (TEE). Simply, it accepts a 
+list of tasks and executes them according to the order specified by the user.
+TEE uses a schedule and waits for the right time to execute the tasks. So,
+it is a long life application, serving 24/7 and should be treated as a service.
+
+TEE has a XML configuration file. Configuration file contains the list of
+tasks, their order of execution, their classes to be instantided form,
+callback methods, etc.
+
+Tasks depend on each other. A single task can depend on many tasks. This means,
+befor lanching a new task, all of its dependencies (tasks which it depends on)
+should have been executed.
+
+Here, you can see a sample configuration:
+
+-----------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<tee>
+  <executer>
+    <schedule type="daily" time="20:34:15" days="Sunday,Tuesday,Friday" />
+  </executer>
+  <tasks>
+    <base-package>com.mycompany.app</base-package>
+    <task id="task1" class="FirstTaskClass" method="run" dependsOn="task3" />
+    <task id="task2" class="SecondTaskClass" before="beforeExecute" method="execute" dependsOn="task1" />
+    <task id="task3" class="ThirdTaskClass" method="perform" after="afterPerform" />
+    <task id="task4" package="oldtasks.native" class="FourthTaskClass" method="run" />
+    <task id="task5" class="FifthTaskClass" before="beforeRun" after="afterRun" method="run" dependsOn="task4,task1" />
+    <task id="task6" class="SixthTaskClass" before="beforeStart" after="afterStart" method="start" dependsOn="task4" />
+  </tasks>
+</tee>
+-----------------------------------------------------------------------------------------------
+
+Engine should read the XML configuration and make an object for each task entry.
+Each task entry has following attributes:
+
+        id: A unique name which is given to a task object. We use it to define 
+            dependencies among tasks. We also need it to obtain the reference to
+            the object while we want to manipulate it programatically. It is 
+            mandatory.
+  
+     class: The class which our task object should be instantiated from. It is
+            an ordinary class but it can be marked with @ResourcedTask annotation 
+            which is declared in TEE core framework. When TEE encouters a class
+            which is annotated @ResourcedTask, engine will call DisposeTask() method
+            on the task object while task is exiting. It is mandatory.
+
+   package: Relative package which task class resides in. It should be added
+            to base package to form full class package. Actual class name of
+            a task is: [base-package] + [task-package] + [taks-class]
+            This attribute is optional.
+
+    method: Name of the method which performs task operation. It must return
+            a reference of type Object and accepts a reference of type Object.
+            Simply, the method signature is:    methodName(o:Object):Object
+            This attribute is mandatory.
+
+    before: A callback method on the task object which is invoked before invoking
+            operation method. Task object may want to initialize some variables
+            before the operation starts. It is optional.
+
+     after: A callback method on the task object which is invoked after invoking
+            operation method. It is optional.
+
+ dependsOn: A list of taks ids separated by comma or semi colon which current task 
+            is depenedent on them. It is optional.
+
+Configuration file should be validated first. If one of the MANDATORY attributes
+are ommited, TEE should throw appropriate exceptions while passing initialization phase.
+
+TEE executes task according to a defined schedule. As you see, a schedule entry is 
+defined for executor part of TEE. It says tasks are exectuded based on a daily
+pattern at 20:34:15 only on Sundays, Tuesdays and Fridays. User can use asterisk (*)
+to mark all days in a week. Other possible values for 'type' attribute is:
+
+  - hourly
+  - weekly
+
+Wrong or meaningless schedules should be detectd and appropriate exceptions should
+be thrown. For example a weekly schedule without any days specified is meaningless.
+
+TEE should execute tasks according to their order. New tasks should be fed using
+results obtained from previous tasks.
+
+
+OPTIMIZATION
+------------
+Once you finished with assignment, you should optimize your source! Here, I give you some
+clues about possible optimization areas in the given assignment.
+
+1- Using a faster method for accessing the tasks: New born implementations usually are 
+   not that much mature. Keeping the list of tasks is easy but finding a suitable
+   data structure for keeping them is a bit hard. Desing from scratch or use a suitable
+   and existing data structure to keep the list of tasks. It should provide you a 
+   very fast search and access ability.
+
+2- Avoid static references. Try to elimiate them.
+
+3- Draw a dependency graph. It is very easy. Tasks are nodes and edges are dependencies
+defined in configuration file. If task A is dependent on task B, there is an edge from
+node A to node B. If this graph is made up of adding some subgraphs, you are lucky! If
+this holds, you can run two or more instances of Executor simultaneously and this will
+give you parallel execution of tasks.
+
+4- Check for immutable tasks. They are worthy. Their results can be cached and no further 
+execution is needed. How can you check immutablity of a task? Source code analysis, maybe?
+
+
+OVER AND OUT.
