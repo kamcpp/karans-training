@@ -1,0 +1,392 @@
+Java {    
+    JSE {
+        Procedural Programming in Java {
+            Control Structures
+            Enumerations
+            Boxing and Unboxing
+            Arrays
+            Functions
+        }
+        Object Oriented Programming in Java {
+            Classes
+            Objects
+            Encapsulation
+            Composition
+            Immutable objects
+            Why immutable objects? Concurrency, Light copies, Functional Programming
+            Clonnabale objects
+            Stateful + Stateless objects
+            Inner + Anonymous classes
+            Static classes
+            JavaBean + POJO classes
+            Prototypes
+            Object Copy and Object Pool
+            Inheritance
+            Polymorphism
+        }
+        Memory Model in Java {
+            Memory Allocation in Java
+            References
+            Garbage Collection
+            Finalization in Java
+        }
+
+        Advanced OOP Concepts {
+            Interfaces
+            Introduction to Dependency Injection
+            Introduction to Strategy Design Pattern
+            Exceptions and Errors
+            Exception Handling
+            Introduction to Unit Testing
+            Assertions
+            Generic classes
+            Annotations
+        }
+        Reflection {
+            What is Reflection?
+            Classes and Class object
+            * ClassLoader
+            Accessing class memebers, methods and fields
+            * Arrays and Enumerated types
+            * Package Scanner project
+        }
+        Linux Essentials {
+            Basic commands 
+            Git commands
+        }
+        Build Process {
+            javac + java exec files
+            Making JAR files
+            Using made jar files
+            Build process
+            What is a Build System?
+            Ant 
+            Maven
+            Other build systems
+            Maven CLI
+            Maven and Eclipse
+            Adding Log4j support to our projects
+            Aspect Oriented Programming (AOP)
+        }
+        Context Managers {
+            Simple Context Manager
+            Spring Context Manager
+        }
+        Design Patterns {
+            What are design patterns?
+            Different types of design patterns
+            Strategy design pattern
+            Subject-Observer design pattern -> Event Handling in Java
+            Singleton design pattern 
+            Service Locator design pattern
+            Factory design pattern
+            Abstract Factory design pattern
+            Decorator, Wrapper and Adapter patterns
+            Inversion of Control (IoC) -> Dependency Injection
+            SOLID Principles
+        }
+        TDD {
+            Test Stubs and Mocks
+            Mockito framework
+        }
+        Multithreading {
+            Concept
+            Threads Interleaving Concept
+            Threads Synchronization
+            Thread Safety
+            Concurrency libraries (Both JSE and other frameworks)
+            Executor Service, Thread Pool, Timer
+            Multithreading design patterns and DOs/DONOTs
+            TDD issues
+        }
+        Streams and File System {
+            Input and Output Streams
+            Byte Streams
+            FileInputStream class
+            FileOutputStream class
+            Character Streams
+            ASCII, UTF8 and other charsets
+            Buffered Streams
+            Serialization and Marshaling
+            java.io.Serializable
+            Binary Serialization
+            XML Serialization
+            Custom Serialization
+            Working with File System
+            File and Directory removal
+            File and Directory creation
+            Enumerating files and directories
+            Retrieving information for a file or directory
+            TDD issues
+        }
+        Sockets {
+            Network essentials
+            What is a Socket?
+            TCP and UDP Sockets
+            Socket streams
+            Multithreading and socket programming
+            Architecture of a server program
+            Application protocols
+            Application protocol design guidelines
+            TDD issues
+        }
+        XML + JSON {
+            Some XML parsers for Java -> DOM, SAX, StAX
+            Memory and Speed factors
+            XML Serialization
+            JSON parser for Java
+            JSON Serialization
+            Parsing HTML, a big disaster!
+        }
+        Http Client {
+           java.net package
+           URL and URLConnection classes
+           Http Streams
+           Apache Commons HTTP
+        }
+        Regular Expressions {
+           What is Regex?
+           Java Regex Rules
+           java.util.regex package
+           Using regex to parse HTML
+        }
+
+===========> Session 12 (77 hours has passed.)
+
+        Java 8 Features {
+          Default Methods (1 hours, 78 hours) {
+            Default methods
+            Extending current frameworks using Default Methods
+            Redeclaration of default methods
+            Static interface methods
+          }
+          Lambda Expressions (3 hours, 81 hours) {
+            Functional interfaces
+            Aggregate Operations
+            Events
+            MapReduce
+            MethodReference
+          }
+          Streams (1 hours, 82 hours) {
+            Sequential Streams
+            Parallel Streams
+          }
+          Nashorn Javascript Engine (2 hours, 84 hours) {
+            Java Scripting API
+            Why JavaScript in Java?
+            Running Java code from within JavaScript
+            Running JavaScript code from within Java
+          }
+        }
+        Security (3 hours, 87 hours) {
+          It is a sandbox!
+          Java 2 Security Architecture
+          Bytecode verifier, Class Loader, Security Manager, Access Controller
+          Java Cryptography Architecture (JCA)
+          Java Authentication and Authorization Service (JAAS)
+          Java Secure Socket Extension (JSSE)
+          Java Cryptography Extension (JCE)
+        }
+        Memory Model in Java (2 hours, 89 hours) {
+          Java Memory Model
+          Resource management using try-catch statement
+        }
+        Design Patterns (2 hours, 91 hours) {
+          Iterator design pattern
+          Facade design pattern
+          Proxy design pattern
+          DAO (Data Access Object) design pattern [3 hours]
+          Deisgn by Contract
+          CQS (Command-Query Seperation) Principle
+          UAP (Uniform Access Principle)
+          Open/Closed Principle
+          Option-Operand Principle
+          Single Choice Principle (DRY Principle)
+          Seperation of Concerns
+        }
+        Build Process (1 hour, 92 hours) {
+          Gradle build system
+        }
+    }
+    JEE {
+        JEE Architecture (2, 94) {
+            JEE Application Model
+            JEE Multi-tier Application
+            EIS Tier
+            Business Tier
+            Client Tier
+            Web Tier
+            Java EE Containers
+            Application Server: Apache Tomcat, JBoss WildFly, GlassFish, Apache Geronimo, Apache TomEE
+        }
+        JEE Enterprise Information Systems () {
+            JDBC (4, 98) {
+                Database Architecture
+                Relational Model
+                JDBC Framework
+                Core interfaces
+                Transactions
+                SQL Injection Attack
+                TDD issues
+            }
+            Persistence Frameworks (2, 100) {
+                ORMs
+                JPA Specification
+                JPQL
+                iBatis and MyBatis
+                Apache Velocity
+                Hibernate
+                TopLink
+            }
+            Hibernate (6, 106) {
+                Hibernate is JPA compatible
+                XML and Annotation based configuration
+                HQL
+                Entities
+                One-To-One, One-To-Many and Many-To-Many relations
+                Introduction to Lambda Expressions (Java 8 feature)
+                TDD issues
+            }         
+        }
+        JEE Web Tier {
+            Web Architecture (6, 112) {
+                Introduction to Web Architecture
+                Web Server
+                Browser
+                HTTP Protocol
+                Request and Response
+                Header and Content
+                HTTP State Management
+                Query String, POST, Cookie
+                Sessions
+                File Upload
+                MIME Types
+                HTML, CSS, JS, jQuery
+                AJAX              
+                CGI, FastCGI, JavaEE Model (Threads instead of Processes)
+                Dynamic and Static web pages
+                REST
+                WebSocket Technology and Server Sent Events (SSE)
+                Web Caching mechanisms
+            }
+            Servlets (6, 118) {  
+                javax.servlets package [2 hours]
+                What is Servlet, Filter and Listener?
+                A sample Http Servlet
+                How servlets work?
+                What are Filters? [2 hours]
+                A Sample Security Filter
+                What are Listeners? [2 hours]
+            }
+            JSP (4, 122) {
+                Why JSP?
+                What is JSP?
+                TAGLIBs -> JSTL
+                How JSP interpreted in an Application Server (AS)?
+                JSP Lifecycle
+            }
+            JEE Web Frameworks and MVC (2, 124) {
+                Model 1 and Model 2
+                MVC Architecture
+                MVC Model2 or MVC2
+                MVC and Reflection
+                Model, View and Controller
+                Pull and Push MVC Frameworks
+                Action-based and Component-based MVC frameworks
+            }
+            Apache Struts (3, 127) {
+                Jakarta Projects
+                Struts1 is a push-based MVC Framework.
+                Struts2 is a pull-based MVC Framework.
+                Apache Tiles
+            }
+            JSF (4, 131) {
+                Pull-based MVC Framework
+                JSF is JEE Standard.
+                JSF Lifecycle
+                JSF Managed Beans
+                JSPs as templates for JSF (as JSF view layer)
+                Facelets as templates for JSF (as JSF view layer)
+                Advantages and disadvantages
+            }
+            Spring MVC (5, 136) {
+                Push-based MVC Framework
+            }
+            Java Web Template Engines (2, 138) {
+                Apache Tiles
+                SiteMesh
+                FreeMaker
+                Thymeleaf
+                Facelets
+            }
+        }
+        JEE Business Tier {
+            RPC (2, 140) {
+                TCP Sockets and RPC
+                CORBA
+                RMI
+                XML-based RPC
+                Web Services
+            }
+            Enterprise JavaBeans (4, 144) {
+                EJS is a JEE specification.
+                EJB Container inside AS
+                Transactions
+                EJB JPA
+                Accessing via Proxy
+                Event-driven programming
+                Asynch. method invocation
+                JNDI
+                Job Scheduling
+                JCE and JAAS
+                Different kinds of EJBs
+                Session Beans
+                Message Driven Beans
+            }
+            JNDI (2, 146) {
+                Service Provider Interface (SPI)
+                Object and Data Lookup
+            }
+            JMS (4, 150) {
+                JMS Provider
+                JMS Client
+                JMS Queues and Topics
+                JMS Publisher/Producer
+                JMS Subscriber/Consumer
+                JMS Message
+                Point-to-Point messages
+                Publish/Subscribe messaging model
+            }
+            HornetQ (2, 152) {
+                JMS Provider from JBoss
+                Other JMS Providers
+            }
+            EJB in detailis (5, 157) {
+                Implementation of a real example
+            }            
+            Web Services (6, 163) {
+                SOAP
+                WSDL
+                SoapUI Software
+                JAX-WS
+                JAXB
+                Spring-WS
+                Apache Axis2
+                Apache CXF
+            }
+            RESTful Web Services (3, 166) {
+                JAX-RS
+                Jersey
+            }
+        }
+        Distributed Transactions () {
+            Java Transaction API (5, 171) {
+                Transaction Processing Monitor
+                Open XA Standard
+            }
+        }
+        Java EE 8, Java EE 7 and Java EE 6 (2, 173) {
+        }
+    }
+    
+}

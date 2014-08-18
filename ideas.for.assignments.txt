@@ -19,7 +19,7 @@ Tree, Graph and data structures
 RPC
 [U] Remote Calculator
 Virus Scanner
-Search Engine
+[U] Search Engine
 Proxy and Cache Proxy
 Publish/Subscribe RPC model
 CORBA like RPC
