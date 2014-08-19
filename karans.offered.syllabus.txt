@@ -160,25 +160,25 @@ Java {
             Redeclaration of default methods
             Static interface methods
           }
-          Lambda Expressions (3 hours, 81 hours) {
+          Lambda Expressions (1 hours, 79 hours) {
             Functional interfaces
             Aggregate Operations
             Events
             MapReduce
             MethodReference
           }
-          Streams (1 hours, 82 hours) {
+          Streams (1 hours, 80 hours) {
             Sequential Streams
             Parallel Streams
           }
-          Nashorn Javascript Engine (2 hours, 84 hours) {
+          Nashorn Javascript Engine (1 hours, 81 hours) {
             Java Scripting API
             Why JavaScript in Java?
             Running Java code from within JavaScript
             Running JavaScript code from within Java
           }
         }
-        Security (3 hours, 87 hours) {
+        Security (3 hours, 84 hours) {
           It is a sandbox!
           Java 2 Security Architecture
           Bytecode verifier, Class Loader, Security Manager, Access Controller
@@ -186,12 +186,20 @@ Java {
           Java Authentication and Authorization Service (JAAS)
           Java Secure Socket Extension (JSSE)
           Java Cryptography Extension (JCE)
+          PKI
+          Public and private keys
+          Certificates
+          keytool
+          SSL Sockets
+          Creating server sockets
+          Creating client sockets
+          Monitroing connections using Wireshark
         }
-        Memory Model in Java (2 hours, 89 hours) {
+        Memory Model in Java (2 hours, 86 hours) {
           Java Memory Model
           Resource management using try-catch statement
         }
-        Design Patterns (2 hours, 91 hours) {
+        Design Patterns (2 hours, 88 hours) {
           Iterator design pattern
           Facade design pattern
           Proxy design pattern
@@ -204,12 +212,12 @@ Java {
           Single Choice Principle (DRY Principle)
           Seperation of Concerns
         }
-        Build Process (1 hour, 92 hours) {
+        Build Process (1 hour, 89 hours) {
           Gradle build system
         }
     }
     JEE {
-        JEE Architecture (2, 94) {
+        JEE Architecture (2, 91) {
             JEE Application Model
             JEE Multi-tier Application
             EIS Tier
@@ -220,7 +228,7 @@ Java {
             Application Server: Apache Tomcat, JBoss WildFly, GlassFish, Apache Geronimo, Apache TomEE
         }
         JEE Enterprise Information Systems () {
-            JDBC (4, 98) {
+            JDBC (4, 95) {
                 Database Architecture
                 Relational Model
                 JDBC Framework
@@ -229,7 +237,7 @@ Java {
                 SQL Injection Attack
                 TDD issues
             }
-            Persistence Frameworks (2, 100) {
+            Persistence Frameworks (2, 97) {
                 ORMs
                 JPA Specification
                 JPQL
@@ -238,7 +246,7 @@ Java {
                 Hibernate
                 TopLink
             }
-            Hibernate (6, 106) {
+            Hibernate (6, 103) {
                 Hibernate is JPA compatible
                 XML and Annotation based configuration
                 HQL
@@ -249,7 +257,7 @@ Java {
             }         
         }
         JEE Web Tier {
-            Web Architecture (6, 112) {
+            Web Architecture (6, 109) {
                 Introduction to Web Architecture
                 Web Server
                 Browser
@@ -269,7 +277,7 @@ Java {
                 WebSocket Technology and Server Sent Events (SSE)
                 Web Caching mechanisms
             }
-            Servlets (6, 118) {  
+            Servlets (6, 115) {  
                 javax.servlets package [2 hours]
                 What is Servlet, Filter and Listener?
                 A sample Http Servlet
@@ -278,14 +286,14 @@ Java {
                 A Sample Security Filter
                 What are Listeners? [2 hours]
             }
-            JSP (4, 122) {
+            JSP (4, 119) {
                 Why JSP?
                 What is JSP?
                 TAGLIBs -> JSTL
                 How JSP interpreted in an Application Server (AS)?
                 JSP Lifecycle
             }
-            JEE Web Frameworks and MVC (2, 124) {
+            JEE Web Frameworks and MVC (2, 121) {
                 Model 1 and Model 2
                 MVC Architecture
                 MVC Model2 or MVC2
@@ -294,13 +302,13 @@ Java {
                 Pull and Push MVC Frameworks
                 Action-based and Component-based MVC frameworks
             }
-            Apache Struts (3, 127) {
+            Apache Struts (3, 124) {
                 Jakarta Projects
                 Struts1 is a push-based MVC Framework.
                 Struts2 is a pull-based MVC Framework.
                 Apache Tiles
             }
-            JSF (4, 131) {
+            JSF (4, 128) {
                 Pull-based MVC Framework
                 JSF is JEE Standard.
                 JSF Lifecycle
@@ -309,10 +317,10 @@ Java {
                 Facelets as templates for JSF (as JSF view layer)
                 Advantages and disadvantages
             }
-            Spring MVC (5, 136) {
+            Spring MVC (5, 133) {
                 Push-based MVC Framework
             }
-            Java Web Template Engines (2, 138) {
+            Java Web Template Engines (2, 135) {
                 Apache Tiles
                 SiteMesh
                 FreeMaker
@@ -321,14 +329,14 @@ Java {
             }
         }
         JEE Business Tier {
-            RPC (2, 140) {
+            RPC (2, 137) {
                 TCP Sockets and RPC
                 CORBA
                 RMI
                 XML-based RPC
                 Web Services
             }
-            Enterprise JavaBeans (4, 144) {
+            Enterprise JavaBeans (4, 141) {
                 EJS is a JEE specification.
                 EJB Container inside AS
                 Transactions
@@ -343,11 +351,11 @@ Java {
                 Session Beans
                 Message Driven Beans
             }
-            JNDI (2, 146) {
+            JNDI (2, 143) {
                 Service Provider Interface (SPI)
                 Object and Data Lookup
             }
-            JMS (4, 150) {
+            JMS (4, 147) {
                 JMS Provider
                 JMS Client
                 JMS Queues and Topics
@@ -357,14 +365,14 @@ Java {
                 Point-to-Point messages
                 Publish/Subscribe messaging model
             }
-            HornetQ (2, 152) {
+            HornetQ (2, 149) {
                 JMS Provider from JBoss
                 Other JMS Providers
             }
-            EJB in detailis (5, 157) {
+            EJB in detailis (5, 154) {
                 Implementation of a real example
             }            
-            Web Services (6, 163) {
+            Web Services (6, 160) {
                 SOAP
                 WSDL
                 SoapUI Software
@@ -374,18 +382,18 @@ Java {
                 Apache Axis2
                 Apache CXF
             }
-            RESTful Web Services (3, 166) {
+            RESTful Web Services (3, 163) {
                 JAX-RS
                 Jersey
             }
         }
         Distributed Transactions () {
-            Java Transaction API (5, 171) {
+            Java Transaction API (5, 168) {
                 Transaction Processing Monitor
                 Open XA Standard
             }
         }
-        Java EE 8, Java EE 7 and Java EE 6 (2, 173) {
+        Java EE 8, Java EE 7 and Java EE 6 (2, 170) {
         }
     }
     
