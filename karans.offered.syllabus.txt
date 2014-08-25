@@ -151,8 +151,6 @@ Java {
            Using regex to parse HTML
         }
 
-===========> Session 12 (77 hours has passed.)
-
         Java 8 Features {
           Default Methods (1 hours, 78 hours) {
             Default methods
@@ -217,6 +215,7 @@ Java {
         }
     }
     JEE {
+    ===========> Session 13 has passed. (89 hours has passed.)
         JEE Architecture (2, 91) {
             JEE Application Model
             JEE Multi-tier Application
@@ -234,6 +233,7 @@ Java {
                 JDBC Framework
                 Core interfaces
                 Transactions
+                Connection Pools: DBCP, BoneCP
                 SQL Injection Attack
                 TDD issues
             }
