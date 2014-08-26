@@ -7,7 +7,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>co.karans</groupId>
-			<artifactId>sampledbproject</artifactId>
+			<artifactId>sampledbproject.dal</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 	</dependencies>

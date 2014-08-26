@@ -5,7 +5,31 @@
 	<artifactId>karans-s14-sample-db-project-console</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-
+		<dependency>
+			<groupId>co.karans</groupId>
+			<artifactId>sampledbproject.biz</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>co.karans</groupId>
+			<artifactId>sampledbproject.dal</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901.jdbc4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jolbox</groupId>
+			<artifactId>bonecp-spring</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>

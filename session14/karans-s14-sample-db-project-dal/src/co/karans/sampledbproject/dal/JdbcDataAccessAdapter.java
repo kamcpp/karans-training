@@ -1,19 +1,22 @@
 package co.karans.sampledbproject.dal;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class JdbcDataAccessAdapter implements DataAccessAdapter {
+
+	@Autowired
+	private DataSource ds;
 
 	@Override
 	public DataAccessAdapterResult submitCommand(
 			DataAccessAdapterCommand command) throws DataAccessException {
 		try {
-			Class.forName("org.postgresql.Driver");
-			try (Connection connection = DriverManager.getConnection(
-					"jdbc:postgresql://10.10.103.48:5433/mydb", "myuser",
-					"12345");
+			try (Connection connection = ds.getConnection();
 					PreparedStatement statement = connection
 							.prepareStatement(((DefaultDataAccessAdapterCommand) command)
 									.getCommand());) {
