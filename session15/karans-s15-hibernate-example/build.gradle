@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+  mavenLocal();
+  mavenCentral();
+}
+
+dependencies {
+  compile 'org.hibernate:hibernate-core:4.3.6.Final'
+}
+
+jar {
+  baseName = 'karans.s15'
+  version = '1.0.0'
+}

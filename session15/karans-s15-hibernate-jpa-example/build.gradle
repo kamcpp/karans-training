@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.hibernate:hibernate-entitymanager:4.3.0.Final'
+  compile 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'
+  compile 'postgresql:postgresql:9.1-901.jdbc4'
+}
