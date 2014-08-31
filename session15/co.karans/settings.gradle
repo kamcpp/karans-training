@@ -1,0 +1,3 @@
+include 'co.karans.fw.data',
+        'co.karans.phonebook.domain',
+        'co.karans.phonebook.app'
