@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="karans.s14.hibernate.xmlconf.Car" table="car_table">
+		<id name="id" type="int" column="car_id">
+			<generator class="native" />
+		</id>
+		<property name="name" column="car_name" type="string" />
+		<property name="model" column="model" type="string" />
+	</class>
+</hibernate-mapping>
