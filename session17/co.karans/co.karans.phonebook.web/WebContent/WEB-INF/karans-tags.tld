@@ -1,0 +1,18 @@
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>KARANS TLD</short-name>
+  <tag>
+    <name>karans</name>
+    <tag-class>co.karans.phonebook.web.tags.KaransTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  <tag>
+  	<name>readBooks</name>
+  	<tag-class>co.karans.phonebook.web.tags.BookReaderTag</tag-class>
+  	<body-content>empty</body-content>
+  	<attribute>
+       <name>collection</name>
+    </attribute>
+  </tag>
+</taglib>
