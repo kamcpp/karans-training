@@ -1,0 +1,47 @@
+subprojects {
+  apply plugin: 'java'
+  jar {
+    version = '1.0.0'
+  }
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
+  dependencies {
+    compile 'log4j:log4j:1.2.16'
+  }
+}
+
+project (':co.karans.fw.data') {
+  dependencies {
+    compile 'org.hibernate:hibernate-entitymanager:4.2.15.Final'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+  }
+}
+
+project (':co.karans.phonebook.domain') {
+  dependencies {
+    compile 'javax:javaee-api:6.0'
+    compile project (':co.karans.fw.data')
+  }
+}
+
+project (':co.karans.phonebook.app') {
+  dependencies {
+    compile 'postgresql:postgresql:9.1-901.jdbc4'
+    compile project (':co.karans.phonebook.domain')
+  }
+}
+
+project (':co.karans.phonebook.web') {
+  apply plugin: 'war'
+  dependencies {
+    compile 'javax:javaee-api:6.0'
+    compile 'postgresql:postgresql:9.1-901.jdbc4'
+    compile 'org.hibernate:hibernate-entitymanager:4.2.15.Final'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+  }
+  war {
+    from 'WebContent'
+  }
+}
