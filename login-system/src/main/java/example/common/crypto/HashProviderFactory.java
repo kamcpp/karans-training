@@ -1,9 +1,6 @@
 package example.common.crypto;
 
-public class HashProviderFactory {
+public interface HashProviderFactory {
 
-	public static HashProvider getHashProvider() {
-		// TODO
-		return null;
-	}
+	HashProvider getHashProvider();
 }
