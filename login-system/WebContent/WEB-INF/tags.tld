@@ -3,21 +3,21 @@
 	<jsp-version>2.0</jsp-version>
 	<tag>
 		<name>validate</name>
-		<tag-class>example.web.taglib.KaransValidateTag</tag-class>
+		<tag-class>example.web.taglib.ValidateTag</tag-class>
 		<attribute>
 			<name>bean</name>
 		</attribute>
 	</tag>
 	<tag>
 		<name>validationMessage</name>
-		<tag-class>example.web.taglib.KaransValidationMessageTag</tag-class>
+		<tag-class>example.web.taglib.ValidationMessageTag</tag-class>
 		<attribute>
 			<name>field</name>
 		</attribute>
 	</tag>
 	<tag>
 		<name>validated</name>
-		<tag-class>example.web.taglib.KaransValidatedTag</tag-class>
+		<tag-class>example.web.taglib.ValidatedTag</tag-class>
 		<attribute>
 			<name>field</name>
 		</attribute>

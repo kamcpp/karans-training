@@ -15,4 +15,5 @@ dependencies {
   compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
   compile 'postgresql:postgresql:9.1-901.jdbc4'
   compile 'org.springframework:spring-context:4.1.0.RELEASE'
+  compile 'jstl:jstl:1.2'
 }
