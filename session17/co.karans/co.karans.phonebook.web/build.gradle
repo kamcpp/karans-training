@@ -12,6 +12,8 @@ dependencies {
   compile 'postgresql:postgresql:9.1-901.jdbc4'
   compile 'org.hibernate:hibernate-entitymanager:4.2.15.Final'
   compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+  compile 'org.springframework:spring-context:4.1.0.RELEASE'
+  compile 'jstl:jstl:1.2'
 }
 
 war {
