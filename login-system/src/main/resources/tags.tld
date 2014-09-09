@@ -1,0 +1,25 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<tag>
+		<name>validate</name>
+		<tag-class>example.web.taglib.KaransValidateTag</tag-class>
+		<attribute>
+			<name>bean</name>
+		</attribute>
+	</tag>
+	<tag>
+		<name>validationMessage</name>
+		<tag-class>example.web.taglib.KaransValidationMessageTag</tag-class>
+		<attribute>
+			<name>field</name>
+		</attribute>
+	</tag>
+	<tag>
+		<name>validated</name>
+		<tag-class>example.web.taglib.KaransValidatedTag</tag-class>
+		<attribute>
+			<name>field</name>
+		</attribute>
+	</tag>
+</taglib>
