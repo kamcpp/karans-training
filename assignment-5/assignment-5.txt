@@ -1,0 +1,17 @@
+[KARANS FIFTH ASSIGNMENT]
+
+INSTRUCTOR: KAMRAN AMINI  <KAM.CPP@GMAIL.COM>
+
+09 SEP 2014
+
+ASSIGNMENT
+----------
+
+You next assignment is about a Web Chat Service. Users make accounts and
+start to chat. Each client has a web and ajax enabled interface for chatting. 
+In addition, a CLI app and a Swing app should get ready for chatting. Those 
+clients who want to use Swing app or CLI application should be able to create 
+users, login and chat. Chatting is simple and none of advanced features like 
+file sending is needed.
+
+OVER AND OUT.
