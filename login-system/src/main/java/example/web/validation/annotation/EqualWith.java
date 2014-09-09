@@ -11,9 +11,8 @@ import example.web.validation.validator.EqualWithValidator;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-@Constraint(validatedBy=EqualWithValidator.class)
+@Constraint(validatedBy = EqualWithValidator.class)
 public @interface EqualWith {
-	
-	String field();
 
+	String field();
 }

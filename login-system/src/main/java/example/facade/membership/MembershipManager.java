@@ -2,17 +2,15 @@ package example.facade.membership;
 
 import java.util.List;
 
-import example.domain.entity.User;
-
 public interface MembershipManager {
 
-	void addUser(User user);
+	void addUser(FacadeUser user);
 
-	User getUserByUsername(String username);
+	FacadeUser getUserByUsername(String username);
 
 	boolean userExists(String username);
 
-	List<User> getUsers();
+	List<FacadeUser> getUsers();
 
 	void activateUser(String username);
 

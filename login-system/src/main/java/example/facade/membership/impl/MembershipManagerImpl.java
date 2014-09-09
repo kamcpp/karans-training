@@ -2,19 +2,18 @@ package example.facade.membership.impl;
 
 import java.util.List;
 
-import example.domain.entity.User;
+import example.facade.membership.FacadeUser;
 import example.facade.membership.MembershipManager;
 
 public class MembershipManagerImpl implements MembershipManager {
 
 	@Override
-	public void addUser(User user) {
+	public void addUser(FacadeUser user) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
-	public User getUserByUsername(String username) {
+	public FacadeUser getUserByUsername(String username) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -26,7 +25,7 @@ public class MembershipManagerImpl implements MembershipManager {
 	}
 
 	@Override
-	public List<User> getUsers() {
+	public List<FacadeUser> getUsers() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -42,5 +41,4 @@ public class MembershipManagerImpl implements MembershipManager {
 		// TODO Auto-generated method stub
 		
 	}
-
 }
