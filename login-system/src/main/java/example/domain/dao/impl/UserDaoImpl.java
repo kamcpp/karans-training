@@ -3,6 +3,7 @@ package example.domain.dao.impl;
 import java.util.List;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -20,10 +21,13 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public void save(User user) {
+
 		entityManager.getTransaction().begin();
+
 		entityManager.persist(user);
 		entityManager.getTransaction().commit();
 		System.out.println("data is added");
+
 	}
 
 	@Override
@@ -32,6 +36,7 @@ public class UserDaoImpl implements UserDao {
 		entityManager.remove(user);
 		entityManager.getTransaction().commit();
 		System.out.println("Data is removed.");
+
 	}
 
 	@Override
@@ -43,6 +48,15 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public User getUserByUsername(String username) {
-		return null;
+		return (User) entityManager.createQuery(
+				"Select u From User u where u.getName().equal(" + username
+						+ ")").getSingleResult();
 	}
+
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
