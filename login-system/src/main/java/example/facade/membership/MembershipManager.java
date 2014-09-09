@@ -15,4 +15,6 @@ public interface MembershipManager {
 	void activateUser(String username);
 
 	void diableUser(String username);
+
+	boolean authenticate(FacadeUser user);
 }

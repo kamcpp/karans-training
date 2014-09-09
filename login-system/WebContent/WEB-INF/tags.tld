@@ -4,6 +4,7 @@
 	<tag>
 		<name>validate</name>
 		<tag-class>example.web.taglib.ValidateTag</tag-class>
+		<body-content>empty</body-content>
 		<attribute>
 			<name>bean</name>
 		</attribute>
@@ -11,6 +12,7 @@
 	<tag>
 		<name>validationMessage</name>
 		<tag-class>example.web.taglib.ValidationMessageTag</tag-class>
+		<body-content>empty</body-content>
 		<attribute>
 			<name>field</name>
 		</attribute>
@@ -18,6 +20,7 @@
 	<tag>
 		<name>validated</name>
 		<tag-class>example.web.taglib.ValidatedTag</tag-class>
+		<body-content>empty</body-content>
 		<attribute>
 			<name>field</name>
 		</attribute>

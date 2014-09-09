@@ -3,6 +3,10 @@ package example.web.listener;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import example.common.spring.SpringContext;
+import example.domain.dao.UserDao;
+import example.facade.membership.impl.MembershipManagerImpl;
+
 public class MyListener implements ServletContextListener {
 
 	@Override
@@ -11,13 +15,10 @@ public class MyListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent arg0) {
-		try {
-			arg0.getServletContext().getClassLoader()
-					.loadClass("example.common.spring.SpringContext");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-			throw new RuntimeException(e);
-		}
+		System.out
+				.println(".........................................................................");
+		UserDao userDao = (UserDao) SpringContext.getContext().getBean(
+				UserDao.class);
+		MembershipManagerImpl.userDao = userDao;
 	}
-
 }

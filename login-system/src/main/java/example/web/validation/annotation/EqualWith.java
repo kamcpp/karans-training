@@ -6,6 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 import javax.validation.Constraint;
+import javax.validation.Payload;
 
 import example.web.validation.validator.EqualWithValidator;
 
@@ -15,4 +16,10 @@ import example.web.validation.validator.EqualWithValidator;
 public @interface EqualWith {
 
 	String field();
+	
+	String message() default "Should be equal.";
+	
+	Class<?>[] groups() default {};
+
+	Class<? extends Payload>[] payload() default {};
 }

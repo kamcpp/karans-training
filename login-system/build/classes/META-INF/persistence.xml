@@ -4,7 +4,7 @@
 	version="2.0">
 	<persistence-unit name="user">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>example.domain.dao.entity.User</class>
+		<class>example.domain.entity.User</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
 			<property name="javax.persistence.jdbc.url"

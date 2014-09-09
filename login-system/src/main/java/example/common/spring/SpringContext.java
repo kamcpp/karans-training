@@ -8,6 +8,7 @@ public class SpringContext {
 	private static ApplicationContext context;
 
 	static {
+		System.out.println("Making spring context ... ");
 		context = new ClassPathXmlApplicationContext("spring-beans.xml");
 	}
 	

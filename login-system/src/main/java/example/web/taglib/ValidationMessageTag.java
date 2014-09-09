@@ -26,8 +26,8 @@ public class ValidationMessageTag extends SimpleTagSupport {
 		Set<ConstraintViolation<Object>> violations = (Set<ConstraintViolation<Object>>) getJspContext()
 				.getAttribute("violations");
 		for (ConstraintViolation<Object> violation : violations) {
-			logger.trace(violation.getPropertyPath());
-			if (violation.getPropertyPath().equals(field)) {
+			if (violation.getPropertyPath().toString().equals(field)) {
+				logger.trace("ERROR ---> '" + violation.getPropertyPath() + "', field: '" + field + "'");
 				JspWriter out = getJspContext().getOut();
 				out.write("<span style='color: red'>" + violation.getMessage()
 						+ "</span>");
