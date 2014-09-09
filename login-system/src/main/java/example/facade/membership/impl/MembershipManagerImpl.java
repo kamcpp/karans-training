@@ -13,7 +13,7 @@ public class MembershipManagerImpl implements MembershipManager {
 	UserDao userDao;
 
 		@Override
-	public void addUser(FacadeUser user) {
+	public void addUser(FacadeUser user) {  
 		User userEntity=new User();
 		userEntity.setName(user.getName());
 		userEntity.setFamily(user.getFamily());
