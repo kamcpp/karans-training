@@ -9,7 +9,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-public class KaransValidateTag extends SimpleTagSupport {
+public class ValidateTag extends SimpleTagSupport {
 
 	private String bean;
 
