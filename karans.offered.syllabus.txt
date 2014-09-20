@@ -304,8 +304,7 @@ Java {
             }
             Apache Struts (3, 124) {
                 Jakarta Projects
-                Struts1 is a push-based MVC Framework.
-                Struts2 is a pull-based MVC Framework.
+                Struts2 is a push-based(Action-based) MVC Framework.
                 Apache Tiles
             }
             JSF (4, 128) {
