@@ -330,10 +330,21 @@ Java {
         JEE Business Tier {
             RPC (2, 137) {
                 TCP Sockets and RPC
-                CORBA
                 RMI
+                JRMP (Java Remote Method Protocol)
+                ORB (Object Request Broker)
+                ORB Ports
+                Inter-ORB Communication
+                GIOP (General Inter-ORB Protocol) Specification
+                GIOP Message Types: Request, Reply, Locate Request, Locate Reply, Fragment
+                RMI-IIOP (Internet Inter-ORB Protocol)
+                IOR (Interoperable Object Reference)
+                CORBA (Common Object Request Broker Architect)
                 XML-based RPC
                 Web Services
+                SOAP and RESTFul Web Services
+                Comet (WebSocket technology)
+                Java Messaging Service (JMS)
             }
             Enterprise JavaBeans (4, 141) {
                 EJS is a JEE specification.
