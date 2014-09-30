@@ -332,14 +332,15 @@ Java {
                 TCP Sockets and RPC
                 RMI
                 JRMP (Java Remote Method Protocol)
+                CORBA (Common Object Request Broker Architect)
                 ORB (Object Request Broker)
                 ORB Ports
                 Inter-ORB Communication
+                IOR (Interoperable Object Reference)
                 GIOP (General Inter-ORB Protocol) Specification
                 GIOP Message Types: Request, Reply, Locate Request, Locate Reply, Fragment
                 RMI-IIOP (Internet Inter-ORB Protocol)
-                IOR (Interoperable Object Reference)
-                CORBA (Common Object Request Broker Architect)
+                HTIOP (Hypertext Inter-ORB Protocol, Inter-ORB over HTTP)
                 XML-based RPC
                 Web Services
                 SOAP and RESTFul Web Services
@@ -351,8 +352,11 @@ Java {
                 RMI Registry
                 RMI Security Manager
                 java.rmi package
+                java.rmi.Remote interface
+                Unicast Remote Object
                 Remote Object and Interfaces   
-                Proxy Objects
+                Proxy or Stub Object
+                Implementation or Skeleton Object
             }
             JNDI (2, 142) {
                 JNDI Spec. and Implementations
@@ -362,6 +366,8 @@ Java {
                 Initial Context
                 jndi.properties file
                 Object and Data Lookup
+                JNDI/DNS Service Provider
+                JNDI/RMI Service Provider
             }
             Enterprise JavaBeans (6, 148) {
                 EJB is a Java EE specification.
