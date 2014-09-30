@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jndi-client/jndi-client.iml" filepath="$PROJECT_DIR$/jndi-client/jndi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-client/rmi-client.iml" filepath="$PROJECT_DIR$/rmi-client/rmi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-test.iml" filepath="$PROJECT_DIR$/rmi-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-test-api/rmi-test-api.iml" filepath="$PROJECT_DIR$/rmi-test-api/rmi-test-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-test-server/rmi-test-server.iml" filepath="$PROJECT_DIR$/rmi-test-server/rmi-test-server.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="hello-world-ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_world_ejb</output-path>
+    <root id="archive" name="hello-world-ejb.jar">
+      <element id="module-output" name="ejb-test-2" />
+    </root>
+  </artifact>
+</component>

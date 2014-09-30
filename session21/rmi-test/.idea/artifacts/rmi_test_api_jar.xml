@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="rmi-test-api:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/rmi_test_api_jar</output-path>
+    <root id="archive" name="rmi-test-api.jar">
+      <element id="module-output" name="rmi-test-api" />
+    </root>
+  </artifact>
+</component>

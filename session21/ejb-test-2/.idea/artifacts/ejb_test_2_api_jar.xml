@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ejb-test-2-api:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ejb_test_2_api_jar</output-path>
+    <root id="archive" name="ejb-test-2-api.jar">
+      <element id="module-output" name="ejb-test-2-api" />
+    </root>
+  </artifact>
+</component>

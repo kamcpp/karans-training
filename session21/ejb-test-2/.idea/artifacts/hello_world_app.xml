@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="hello-world-app">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_world_app</output-path>
+    <root id="archive" name="hello-world-app.ear">
+      <element id="artifact" artifact-name="hello-world-ejb" />
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="ejb-test-2-api:jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

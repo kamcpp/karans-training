@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejb-test-2.iml" filepath="$PROJECT_DIR$/ejb-test-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb-test-2-api/ejb-test-2-api.iml" filepath="$PROJECT_DIR$/ejb-test-2-api/ejb-test-2-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb-test-2-jndi-client/ejb-test-2-jndi-client.iml" filepath="$PROJECT_DIR$/ejb-test-2-jndi-client/ejb-test-2-jndi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb-test-2-jndi-client-jboss/ejb-test-2-jndi-client-jboss.iml" filepath="$PROJECT_DIR$/ejb-test-2-jndi-client-jboss/ejb-test-2-jndi-client-jboss.iml" />
+    </modules>
+  </component>
+</project>
+
