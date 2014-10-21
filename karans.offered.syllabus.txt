@@ -330,48 +330,91 @@ Java {
         JEE Business Tier {
             RPC (2, 137) {
                 TCP Sockets and RPC
-                CORBA
                 RMI
+                JRMP (Java Remote Method Protocol)
+                CORBA (Common Object Request Broker Architect)
+                ORB (Object Request Broker)
+                ORB Ports
+                Inter-ORB Communication
+                IOR (Interoperable Object Reference)
+                GIOP (General Inter-ORB Protocol) Specification
+                GIOP Message Types: Request, Reply, Locate Request, Locate Reply, Fragment
+                RMI-IIOP (Internet Inter-ORB Protocol)
+                HTIOP (Hypertext Inter-ORB Protocol, Inter-ORB over HTTP)
                 XML-based RPC
                 Web Services
+                SOAP and RESTFul Web Services
+                Comet (WebSocket technology)
+                Java Messaging Service (JMS)
             }
-            Enterprise JavaBeans (4, 141) {
-                EJS is a JEE specification.
-                EJB Container inside AS
-                Transactions
-                EJB JPA
-                Accessing via Proxy
-                Event-driven programming
-                Asynch. method invocation
-                JNDI
-                Job Scheduling
-                JCE and JAAS
+            RMI (3, 140) {
+                RMI Architecture
+                RMI Registry
+                RMI Security Manager
+                java.rmi package
+                java.rmi.Remote interface
+                Unicast Remote Object
+                Remote Object and Interfaces   
+                Proxy or Stub Object
+                Implementation or Skeleton Object
+            }
+            JNDI (2, 142) {
+                JNDI Spec. and Implementations
+                Sun implementations for RMI Registry
+                JNDI implementations: OpenEJB, JBOSSNS, WebSphere, etc
+                JNDI Service Provider Interface (SPI)
+                Initial Context
+                jndi.properties file
+                Object and Data Lookup
+                JNDI/DNS Service Provider
+                JNDI/RMI Service Provider
+            }
+            Enterprise JavaBeans (6, 148) {
+                EJB is a Java EE specification.
+                Older versions of EJB Spec.
+                EJB Container
+                EJB bundle structure
+                ejb-jar.xml descriptor file
+                JNDI Spec. and EJB
+                Local and Remote interfaces
                 Different kinds of EJBs
                 Session Beans
                 Message Driven Beans
+                Transactions and JTA
+                Asynch. method invocation via @Asynchronous
+                Seucrity issues
             }
-            JNDI (2, 143) {
-                Service Provider Interface (SPI)
-                Object and Data Lookup
+            CDI (6, 154) {
+                Dependency Injection using @Inject
+                beans.xml descriptor file
+                Default implementations
+                Alternatives
+                Qualifiers
+                Inspectors and AOP
+                @AroundConstrust
+                @AroundInvoke
+                Bean inspectors
+                Class inspectors
+                Event inspectors
+                Decorators
             }
-            JMS (4, 147) {
-                JMS Provider
-                JMS Client
-                JMS Queues and Topics
-                JMS Publisher/Producer
-                JMS Subscriber/Consumer
+            JMS (7, 161) {
+                JMS Spec.
+                MDB (Message Driven Beans)
+                JMS Impleemntations
+                Provider
+                Queues and Topics
+                Publisher/Producer
+                Subscriber/Consumer
                 JMS Message
                 Point-to-Point messages
                 Publish/Subscribe messaging model
+                Asynchornous calls
+                HornetQ
+                ActiveMQ
+                Standalone HornetQ
             }
-            HornetQ (2, 149) {
-                JMS Provider from JBoss
-                Other JMS Providers
-            }
-            EJB in detailis (5, 154) {
-                Implementation of a real example
-            }            
-            Web Services (6, 160) {
+            Web Services (6, 167) {
                 SOAP
                 WSDL
                 SoapUI Software
@@ -380,20 +423,39 @@ Java {
                 Spring-WS
                 Apache Axis2
                 Apache CXF
+                EJB vs Web Services
             }
-            RESTful Web Services (3, 163) {
+            RESTful Web Services (3, 170) {
                 JAX-RS
                 Jersey
             }
-        }
-        Distributed Transactions () {
-            Java Transaction API (5, 168) {
-                Transaction Processing Monitor
-                Open XA Standard
+            Extra topics (4, 174) {
+                EJB Timer Services
+                EJB Authorization
             }
         }
-        Java EE 8, Java EE 7 and Java EE 6 (2, 170) {
+        Java Transaction API (5, 179) {
+            ACID Properties
+            JTA Spec.
+            Local Transactions
+            Distributed Trasnactions
+            Transaction Manager
+            Resource Manager
+            Transaction Processing Monitor
+            Open XA Standard
+        }
+        Java EE 7 and Java EE 6 (4, 183) {
+            WebSocket Technology
+            JSON-P Technology
+        }
+        JMX Technology (5, 188) {
+           What is JMX Spec.?
+           Management interfaces
+           Managed Beans (MBeans)
+           JMX Connectors
+           JMX Adaptors 
+           JConsole
+           JMX Remote Debugging
         }
     }
-    
 }
