@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase-jpa-test/javase-jpa-test.iml" filepath="$PROJECT_DIR$/javase-jpa-test/javase-jpa-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-and-cdi-example.iml" filepath="$PROJECT_DIR$/jpa-and-cdi-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-jpa-cdi-test/web-jpa-cdi-test.iml" filepath="$PROJECT_DIR$/web-jpa-cdi-test/web-jpa-cdi-test.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -5,6 +5,7 @@ import javax.inject.Inject;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Types;
 import java.util.UUID;
 
 @ApplicationScoped
@@ -17,7 +18,7 @@ public class JdbcUserDao  implements UserDao {
     public UUID addUser(User user) {
         try {
             PreparedStatement ps = connection.prepareStatement("INSERT INTO myuser VALUES (?, ?, ?, ?)");
-            ps.setString(1, user.getId().toString());
+            ps.setObject(1, user.getId().toString(), Types.OTHER);
             ps.setString(2, user.getName());
             ps.setString(3, user.getUsername());
             ps.setString(4, user.getPassword());

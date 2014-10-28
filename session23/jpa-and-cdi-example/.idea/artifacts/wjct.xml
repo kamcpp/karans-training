@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wjct">
+    <output-path>$PROJECT_DIR$/out/artifacts/wjct</output-path>
+    <root id="archive" name="wjct.war">
+      <element id="javaee-facet-resources" facet="web-jpa-cdi-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-jpa-cdi-test" />
+          <element id="module-output" name="domain" />
+        </element>
+      </element>
+      <element id="jpa-descriptors" facet="web-jpa-cdi-test/jpa/JPA" />
+    </root>
+  </artifact>
+</component>
