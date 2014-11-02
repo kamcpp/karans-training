@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="super-market">
+    <output-path>$PROJECT_DIR$/out/artifacts/super_market</output-path>
+    <root id="archive" name="super-market.ear">
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="super-market-services-api" />
+        <element id="library" level="project" name="Maven: asm:asm:3.1" />
+        <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
+        <element id="library" level="project" name="Maven: cglib:cglib:2.2" />
+        <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+        <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+        <element id="library" level="project" name="Maven: javassist:javassist:3.12.0.GA" />
+        <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+        <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+        <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" />
+        <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
+        <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.0.Final" />
+        <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:3.6.0.Final" />
+        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+        <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
+      </element>
+      <element id="artifact" artifact-name="product-services" />
+      <element id="artifact" artifact-name="webui" />
+    </root>
+  </artifact>
+</component>

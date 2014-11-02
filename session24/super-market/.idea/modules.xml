@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/product-services/product-services.iml" filepath="$PROJECT_DIR$/product-services/product-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market.iml" filepath="$PROJECT_DIR$/super-market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market-services-api/super-market-services-api.iml" filepath="$PROJECT_DIR$/super-market-services-api/super-market-services-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webui/webui.iml" filepath="$PROJECT_DIR$/webui/webui.iml" />
+    </modules>
+  </component>
+</project>
+

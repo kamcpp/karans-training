@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-ejb-web">
+    <output-path>$PROJECT_DIR$/out/artifacts/my_ejb_web</output-path>
+    <root id="archive" name="my-ejb-web.war">
+      <element id="javaee-facet-resources" facet="my-ejb-web-usage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-ejb-web-usage" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

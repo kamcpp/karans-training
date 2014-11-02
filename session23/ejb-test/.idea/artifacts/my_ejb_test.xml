@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="my-ejb-test">
+    <output-path>$PROJECT_DIR$/out/artifacts/my_ejb_test</output-path>
+    <root id="archive" name="my-ejb-test.ear">
+      <element id="artifact" artifact-name="my-ejb-impl" />
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="my-ejb-api:jar" />
+      </element>
+      <element id="artifact" artifact-name="my-ejb-web" />
+    </root>
+  </artifact>
+</component>

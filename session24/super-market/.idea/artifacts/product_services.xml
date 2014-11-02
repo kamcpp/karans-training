@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="product-services">
+    <output-path>$PROJECT_DIR$/out/artifacts/product_services</output-path>
+    <root id="archive" name="product-services.jar">
+      <element id="module-output" name="product-services" />
+      <element id="javaee-facet-resources" facet="product-services/ejb/EJB" />
+      <element id="jpa-descriptors" facet="product-services/jpa/JPA" />
+    </root>
+  </artifact>
+</component>

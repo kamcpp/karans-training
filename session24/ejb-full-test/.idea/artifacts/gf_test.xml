@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gf-test">
+    <output-path>$PROJECT_DIR$/out/artifacts/gf_test</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gf-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gf-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

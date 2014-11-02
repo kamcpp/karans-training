@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webui">
+    <output-path>$PROJECT_DIR$/out/artifacts/webui</output-path>
+    <root id="archive" name="webui.war">
+      <element id="javaee-facet-resources" facet="webui/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webui" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.4.GA" />
+          <element id="library" level="project" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.4.3.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.marshalling:jboss-marshalling:1.4.3.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.remoting:jboss-remoting:4.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.sasl:jboss-sasl:1.0.4.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-api:3.2.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss:jboss-ejb-client:2.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss:jboss-remote-naming:2.0.3.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-nio:3.2.0.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
