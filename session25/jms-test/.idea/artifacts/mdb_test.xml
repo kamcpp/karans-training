@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="mdb-test">
+    <output-path>$PROJECT_DIR$/out/artifacts/mdb_test</output-path>
+    <root id="archive" name="mdb-test.ear">
+      <element id="artifact" artifact-name="ejbs" />
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="mdb-test-api:jar" />
+      </element>
+      <element id="artifact" artifact-name="mdb-test-ui" />
+    </root>
+  </artifact>
+</component>

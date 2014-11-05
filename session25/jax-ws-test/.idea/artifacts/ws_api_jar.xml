@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ws-api:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ws_api_jar</output-path>
+    <root id="archive" name="ws-api.jar">
+      <element id="module-output" name="ws-api" />
+    </root>
+  </artifact>
+</component>

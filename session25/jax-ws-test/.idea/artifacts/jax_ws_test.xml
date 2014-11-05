@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jax-ws-test">
+    <output-path>$PROJECT_DIR$/out/artifacts/jax_ws_test</output-path>
+    <root id="archive" name="jax-ws-test.war">
+      <element id="javaee-facet-resources" facet="jax-ws-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jax-ws-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="ws-api:jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

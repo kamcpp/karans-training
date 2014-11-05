@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jax-ws-test.iml" filepath="$PROJECT_DIR$/jax-ws-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-api/ws-api.iml" filepath="$PROJECT_DIR$/ws-api/ws-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-jse-deploy/ws-jse-deploy.iml" filepath="$PROJECT_DIR$/ws-jse-deploy/ws-jse-deploy.iml" />
+    </modules>
+  </component>
+</project>
+

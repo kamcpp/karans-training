@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mdb-test-ui">
+    <output-path>$PROJECT_DIR$/out/artifacts/mdb_test_ui</output-path>
+    <root id="archive" name="mdb-test-ui.war">
+      <element id="javaee-facet-resources" facet="mdb-test-ui/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mdb-test-ui" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jms-test.iml" filepath="$PROJECT_DIR$/jms-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdb-test/mdb-test.iml" filepath="$PROJECT_DIR$/mdb-test/mdb-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdb-test-api/mdb-test-api.iml" filepath="$PROJECT_DIR$/mdb-test-api/mdb-test-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdb-test-ui/mdb-test-ui.iml" filepath="$PROJECT_DIR$/mdb-test-ui/mdb-test-ui.iml" />
+    </modules>
+  </component>
+</project>
+

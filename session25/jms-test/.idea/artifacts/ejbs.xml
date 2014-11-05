@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="ejbs">
+    <output-path>$PROJECT_DIR$/out/artifacts/ejbs</output-path>
+    <root id="archive" name="ejbs.jar">
+      <element id="module-output" name="mdb-test" />
+    </root>
+  </artifact>
+</component>

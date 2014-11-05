@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mdb-test-api:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mdb_test_api_jar</output-path>
+    <root id="archive" name="mdb-test-api.jar">
+      <element id="module-output" name="mdb-test-api" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hornetq/hornetq-jms-client/2.4.1.Final/hornetq-jms-client-2.4.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hornetq/hornetq-commons/2.4.1.Final/hornetq-commons-2.4.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/jboss-ejb-client/2.0.0.Final/jboss-ejb-client-2.0.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hornetq/hornetq-journal/2.4.1.Final/hornetq-journal-2.4.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hornetq/hornetq-core-client/2.4.1.Final/hornetq-core-client-2.4.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/marshalling/jboss-marshalling-river/1.4.6.Final/jboss-marshalling-river-1.4.6.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/marshalling/jboss-marshalling/1.4.6.Final/jboss-marshalling-1.4.6.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jgroups/jgroups/3.3.4.Final/jgroups-3.3.4.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/xnio/xnio-nio/3.2.2.Final/xnio-nio-3.2.2.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/remoting/jboss-remoting/4.0.3.Final/jboss-remoting-4.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/jboss-remote-naming/2.0.1.Final/jboss-remote-naming-2.0.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/sasl/jboss-sasl/1.0.4.Final/jboss-sasl-1.0.4.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.15.Final/netty-all-4.0.15.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/xnio/xnio-api/3.2.2.Final/xnio-api-3.2.2.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hornetq/hornetq-native/2.4.1.Final/hornetq-native-2.4.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/wildfly/wildfly-build-config/8.1.0.Final/wildfly-build-config-8.1.0.Final.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
