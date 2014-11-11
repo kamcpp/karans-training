@@ -5,9 +5,11 @@ import co.karans.sso.biz.SSOToken;
 import co.karans.sso.biz.exceptions.AuthenticationFailedException;
 import co.karans.sso.biz.exceptions.BizException;
 
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 
 @Stateless
+@Local(Authentication.class)
 public class AuthenticationFakeImpl implements Authentication {
 
 
