@@ -1,7 +1,8 @@
 package co.karans.sso.ws.api;
 
 
-public class CreateAccountRequest {
+public class Account {
+
     private String name;
     private String family;
     private String username;
