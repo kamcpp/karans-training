@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sso-biz-api">
+    <output-path>$PROJECT_DIR$/out/artifacts/sso_biz_api</output-path>
+    <root id="archive" name="sso-biz-api.jar">
+      <element id="module-output" name="sso-biz-api" />
+    </root>
+  </artifact>
+</component>

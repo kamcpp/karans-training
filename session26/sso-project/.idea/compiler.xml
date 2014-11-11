@@ -25,6 +25,7 @@
         <module name="sso-biz-impl" />
         <module name="sso-commons" />
         <module name="sso-eis-api" />
+        <module name="sso-eis-fake-impl" />
         <module name="sso-ws-api" />
       </profile>
     </annotationProcessing>

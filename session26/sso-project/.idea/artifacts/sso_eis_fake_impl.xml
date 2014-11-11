@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sso-eis-fake-impl">
+    <output-path>$PROJECT_DIR$/out/artifacts/sso_eis_fake_impl</output-path>
+    <root id="archive" name="sso-eis-fake-impl.jar">
+      <element id="module-output" name="sso-eis-fake-impl" />
+    </root>
+  </artifact>
+</component>

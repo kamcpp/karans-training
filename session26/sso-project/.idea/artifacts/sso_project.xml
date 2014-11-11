@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="sso-project">
+    <output-path>$PROJECT_DIR$/out/artifacts/sso_project</output-path>
+    <root id="archive" name="sso-project.ear">
+      <element id="artifact" artifact-name="biz-ejb" />
+      <element id="artifact" artifact-name="fake-eis-ejb" />
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="sso-biz-api" />
+        <element id="artifact" artifact-name="sso-eis-fake-impl" />
+      </element>
+    </root>
+  </artifact>
+</component>

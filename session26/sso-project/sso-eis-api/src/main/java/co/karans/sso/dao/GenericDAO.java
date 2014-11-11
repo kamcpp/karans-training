@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface GenericDAO <E> {
 
-    public long saveOrUpdate(User user);
+    public long saveOrUpdate(E user);
 
     public void delete(long id);
 

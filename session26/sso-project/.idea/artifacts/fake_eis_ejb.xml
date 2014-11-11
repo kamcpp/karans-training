@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="fake-eis-ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/fake_eis_ejb</output-path>
+    <root id="archive" name="fake-eis-ejb.jar">
+      <element id="module-output" name="sso-eis-fake-impl" />
+    </root>
+  </artifact>
+</component>

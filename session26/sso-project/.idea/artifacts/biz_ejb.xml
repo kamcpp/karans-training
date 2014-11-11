@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="biz-ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/biz_ejb</output-path>
+    <root id="archive" name="biz-ejb.jar">
+      <element id="module-output" name="sso-biz-impl" />
+    </root>
+  </artifact>
+</component>

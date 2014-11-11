@@ -13,6 +13,7 @@
         <module>sso-biz-api</module>
         <module>sso-ws-api</module>
         <module>sso-biz-impl</module>
+        <module>sso-eis-fake-impl</module>
     </modules>
 
 
