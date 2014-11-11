@@ -22,15 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-<<<<<<< HEAD
-        <module name="sso-biz-fake-impl" />
-=======
-        <module name="sso-biz-impl" />
-        <module name="sso-commons" />
->>>>>>> 994515b4691de17791d7444910611d0c257a9ffb
-        <module name="sso-eis-api" />
-        <module name="sso-eis-impl" />
-        <module name="sso-ws-api" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
   </component>
