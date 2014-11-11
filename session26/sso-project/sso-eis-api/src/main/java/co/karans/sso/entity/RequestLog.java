@@ -10,6 +10,8 @@ public class RequestLog {
     private long Id;
     @Column(name="issue_date", nullable = false)
     private long issueDate;
+    @Column(name="operation", length = 2048, nullable = false)
+    private String operation;
     @Column(name="details", length = 2048, nullable = false)
     private String details;
     @ManyToOne(fetch = FetchType.LAZY)
@@ -33,6 +35,14 @@ public class RequestLog {
 
     public void setIssueDate(long issueDate) {
         this.issueDate = issueDate;
+    }
+
+    public String getOperation() {
+        return operation;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;
     }
 
     public String getDetails() {
