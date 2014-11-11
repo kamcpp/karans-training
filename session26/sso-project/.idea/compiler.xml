@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sso-biz-api" />
+        <module name="sso-commons" />
         <module name="sso-eis-api" />
         <module name="sso-ws-api" />
       </profile>
