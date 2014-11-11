@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sso-biz-api/sso-biz-api.iml" filepath="$PROJECT_DIR$/sso-biz-api/sso-biz-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-biz-impl/sso-biz-impl.iml" filepath="$PROJECT_DIR$/sso-biz-impl/sso-biz-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-eis-api/sso-eis-api.iml" filepath="$PROJECT_DIR$/sso-eis-api/sso-eis-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-eis-impl/sso-eis-impl.iml" filepath="$PROJECT_DIR$/sso-eis-impl/sso-eis-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-project.iml" filepath="$PROJECT_DIR$/sso-project.iml" />
