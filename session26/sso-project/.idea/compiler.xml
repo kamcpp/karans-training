@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="sso-commons" />
         <module name="sso-eis-api" />
+        <module name="sso-eis-impl" />
         <module name="sso-ws-api" />
       </profile>
     </annotationProcessing>
