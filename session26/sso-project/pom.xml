@@ -12,7 +12,11 @@
         <module>sso-eis-api</module>
         <module>sso-biz-api</module>
         <module>sso-ws-api</module>
+<<<<<<< HEAD
         <module>sso-biz-fake-impl</module>
+=======
+        <module>sso-biz-impl</module>
+>>>>>>> 994515b4691de17791d7444910611d0c257a9ffb
     </modules>
 
 
