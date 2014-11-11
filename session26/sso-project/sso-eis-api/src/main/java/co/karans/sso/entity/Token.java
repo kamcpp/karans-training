@@ -33,11 +33,11 @@ public class Token {
         this.issueDate = issueDate;
     }
 
-    public long getExpirationDate() {
+    public Long getExpirationDate() {
         return expirationDate;
     }
 
-    public void setExpirationDate(long expirationDate) {
+    public void setExpirationDate(Long expirationDate) {
         this.expirationDate = expirationDate;
     }
 
