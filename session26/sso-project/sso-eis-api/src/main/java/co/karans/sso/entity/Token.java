@@ -16,6 +16,9 @@ public class Token {
     private boolean expired;
     @Column(name="value", length = 512, nullable =  false)
     private String value;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="user_id", nullable = false)
+    private User user;
 
     public long getId() {
         return id;
@@ -55,5 +58,13 @@ public class Token {
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
