@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eis-api/eis-api.iml" filepath="$PROJECT_DIR$/eis-api/eis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eis-impl/eis-impl.iml" filepath="$PROJECT_DIR$/eis-impl/eis-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejbs-api/ejbs-api.iml" filepath="$PROJECT_DIR$/ejbs-api/ejbs-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejbs-impl/ejbs-impl.iml" filepath="$PROJECT_DIR$/ejbs-impl/ejbs-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rs-services/rs-services.iml" filepath="$PROJECT_DIR$/rs-services/rs-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services-api/services-api.iml" filepath="$PROJECT_DIR$/services-api/services-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services-impl/services-impl.iml" filepath="$PROJECT_DIR$/services-impl/services-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session27.iml" filepath="$PROJECT_DIR$/session27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websockets/websockets.iml" filepath="$PROJECT_DIR$/websockets/websockets.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="session27">
+    <output-path>$PROJECT_DIR$/out/artifacts/session27</output-path>
+    <root id="archive" name="session27.ear">
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="ejbs-api:jar" />
+        <element id="artifact" artifact-name="domain:jar" />
+        <element id="artifact" artifact-name="eis-api:jar" />
+        <element id="artifact" artifact-name="eis-impl:jar" />
+      </element>
+      <element id="artifact" artifact-name="services-impl" />
+      <element id="artifact" artifact-name="ejbs-impl" />
+      <element id="artifact" artifact-name="rs-services" />
+      <element id="artifact" artifact-name="websockets" />
+    </root>
+  </artifact>
+</component>

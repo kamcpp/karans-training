@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WEBSOCKETS</title>
+</head>
+<body>
+<div id="test"></div>
+<button id="button">Click to send</button>
+</body>
+<script>
+    var ws = new WebSocket("ws://localhost:8080/websockets/hw");
+    ws.onmessage = function (text) {
+        document.getElementById("test").innerHTML += "<h1>" + text.data + "</h1>";
+    }
+
+    document.getElementById("button").onclick = function (e) {
+        e.preventDefault();
+        ws.send("JOHN");
+    }
+</script>
+</html>

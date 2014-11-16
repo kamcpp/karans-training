@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ejbs-api:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ejbs_api_jar</output-path>
+    <root id="archive" name="ejbs-api.jar">
+      <element id="module-output" name="ejbs-api" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="calculation-service">
+    <output-path>$PROJECT_DIR$/out/artifacts/calculation_service</output-path>
+    <root id="archive" name="calculation-service.war">
+      <element id="javaee-facet-resources" facet="calculation-service/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="calculation-service" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
