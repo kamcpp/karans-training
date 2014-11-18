@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>
+        Welcome to our chat room
+    </title>
+    <style>
+        .message {
+            display: block;
+        }
+        .message_text {
+            color: deeppink;
+        }
+        .username {
+            color: blue;
+        }
+
+        #display {
+            width: 700px;
+            height: 200px;
+            border: 1px solid;
+        }
+    </style>
+    <script>
+        var ws = new WebSocket("ws://10.10.103.22:8080/chatapp/chat");
+        ws.onmessage = function (message) {
+            console.log("Received: " + message.data);
+            var reciveMessage = message.data;
+            var tokens = reciveMessage.split(":");
+            document.getElementById("display").innerHTML += "<span class='message'><span class='username'>" + tokens[1] + "</span>: <span class='message_text'>" + tokens[2] + "</span>" + "</span>";
+        }
+        function firstSendRequest() {
+            ws.send("REG:" + document.getElementById("myUsername").value);
+            document.getElementById("display").disabled = false;
+            document.getElementById("myMessage").disabled = false;
+            document.getElementById("sendButton").disabled = false;
+        }
+        function sendMessage() {
+            ws.send("MBC:" + document.getElementById("myMessage").value);
+            document.getElementById("myMessage").value = "";
+        }
+        function logout() {
+            ws.send("BYE");
+            document.getElementById("display").disabled = true;
+            document.getElementById("myMessage").disabled = true;
+            document.getElementById("sendButton").disabled = true;
+        }
+
+    </script>
+</head>
+<body>
+
+<input id="myUsername" type="text" placeholder="Your name">
+<button onclick="firstSendRequest()"> Start</button>
+<button onclick="logout()" id="logout"> Logout</button>
+</br>
+<div id="container">
+    <div id="display" disabled="true"></div>
+    </br>
+    <input id="myMessage" type="text" placeholder="Type a Message" disabled="true">
+    <button id="sendButton" onclick="sendMessage()" disabled="true"> Send</button>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Web Socket Test</title>
+    <script>
+      function weGotMessage(message) {
+         document.getElementById("myDiv").innerHTML += "<h1>" + message.data + "</h1>";
+      }
+      var ws = new WebSocket("ws://localhost:8080/session28-websocket/hello");
+      ws.onmessage = weGotMessage;
+      function sendRequest() {
+        ws.send("John");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="myDiv">Click me ...</div>
+    <button onclick="sendRequest();">Send Request</button>
+  </body>
+</html>

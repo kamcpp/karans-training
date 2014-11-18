@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chatapp">
+    <output-path>$PROJECT_DIR$/out/artifacts/chatapp</output-path>
+    <root id="archive" name="chatapp.war">
+      <element id="javaee-facet-resources" facet="chatapp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chatapp" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

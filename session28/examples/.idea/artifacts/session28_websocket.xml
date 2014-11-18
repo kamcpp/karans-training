@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="session28-websocket">
+    <output-path>$PROJECT_DIR$/out/artifacts/session28_websocket</output-path>
+    <root id="archive" name="session28-websocket.war">
+      <element id="javaee-facet-resources" facet="websocket/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="websocket" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

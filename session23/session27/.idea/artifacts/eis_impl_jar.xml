@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eis-impl:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eis_impl_jar</output-path>
+    <root id="archive" name="eis-impl.jar">
+      <element id="module-output" name="eis-impl" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="services-impl">
+    <output-path>$PROJECT_DIR$/out/artifacts/services_impl</output-path>
+    <root id="archive" name="services-impl.war">
+      <element id="javaee-facet-resources" facet="services-impl/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="services-impl" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="services-api:jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
