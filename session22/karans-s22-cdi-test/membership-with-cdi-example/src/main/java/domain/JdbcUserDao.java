@@ -17,8 +17,14 @@ public class JdbcUserDao  implements UserDao {
     @Override
     public UUID addUser(User user) {
         try {
+<<<<<<< Updated upstream:session22/karans-s22-cdi-test/membership-with-cdi-example/src/main/java/domain/JdbcUserDao.java
             PreparedStatement ps = connection.prepareStatement("INSERT INTO myuser VALUES (?, ?, ?, ?)");
             ps.setObject(1, user.getId().toString(), Types.OTHER);
+=======
+            PreparedStatement ps = connection.prepareStatement("INSERT INTO myuser (id, name, username, password) VALUES (?, ?, ?, ?)");
+            ps.setObject(1, user.getId().toString(), Types.OTHER);
+            System.out.println("===> " + user.getName());
+>>>>>>> Stashed changes:karans-s22-cdi-test/membership-with-cdi-example/src/main/java/domain/JdbcUserDao.java
             ps.setString(2, user.getName());
             ps.setString(3, user.getUsername());
             ps.setString(4, user.getPassword());
